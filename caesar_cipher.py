@@ -1,7 +1,6 @@
 from string import ascii_lowercase
 
 x = list(ascii_lowercase)
-print(x)
 
 def encrypt():
         s = input('enter plaintext')
