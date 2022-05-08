@@ -1,0 +1,9 @@
+p = 17
+g = 6
+priv_a = 7
+priv_b = 8
+pub_a = pow(g,priv_a,p) 
+pub_b = pow(g,priv_b,p) 
+k1 = pow(pub_a,priv_b,p) 
+k2 = pow(pub_b,priv_a,p) 
+print(k1 == k2)
